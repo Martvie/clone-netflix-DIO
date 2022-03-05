@@ -3,5 +3,28 @@ html {
 }
 
 body {
-    background-color: var(--background);
+    background-color: var(--black);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .logo {
+    margin-left: 1rem;
+    color: var(--red);
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+header .container nav a {
+    margin-right: 20px;
+    font-size: 2rem;
+    color: var(--nav-color);
+}
+
+header .container nav a:hover {
+    color: white;
 }
