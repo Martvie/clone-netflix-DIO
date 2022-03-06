@@ -78,3 +78,9 @@ header .container nav a:hover {
 .btn i {
     margin-right: 6px;
 }
+
+.movie-poster {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
