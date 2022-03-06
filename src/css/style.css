@@ -4,6 +4,7 @@ html {
 
 body {
     background-color: var(--black);
+    color: white;
 }
 
 header .container {
@@ -35,7 +36,7 @@ header .container nav a:hover {
     font-size: 1.6rem;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/office-banner.jpg');
     background-size: cover;
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,10 +44,32 @@ header .container nav a:hover {
 }
 
 .container .tittle-movie {
+    margin-top: 10%;
     font-size: 4rem;
     font-weight: 500;
 }
 
 .container .description-movie {
+    margin-top: 10px;
     margin-bottom: 40px;
+}
+
+.container .btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    margin-right: 15px;
+    font-size: 1.1rem;
+}
+
+.container .btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #000000;
+    transition: ease-in-out 0.5s;
+}
+
+.btn i {
+    margin-right: 6px;
 }
