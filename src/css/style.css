@@ -43,6 +43,11 @@ header .container nav a:hover {
     align-items: flex-start;
 }
 
+.banner .container {
+    margin-left: 20px;
+    width: 70%;
+}
+
 .container .tittle-movie {
     margin-top: 10%;
     font-size: 4rem;
