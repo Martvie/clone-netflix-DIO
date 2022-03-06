@@ -14,3 +14,7 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+function redirect(){
+    window.open('https://www.youtube.com/watch?v=0Kvw2BPKjz0')
+}
