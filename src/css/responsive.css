@@ -1,0 +1,32 @@
+@media (min-width:1000px){
+    .container .description-movie{
+        width: 70%;
+    }
+}
+
+@media (max-width:700px) {
+    header .container {
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:650px){
+
+    .banner {
+        height: 500px;
+    }
+
+    .container .description-movie {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .container .btn {
+        padding: 15px 30px;
+        margin-right: 10px;
+        font-size: 1.1rem;
+    }
+
+    
+}

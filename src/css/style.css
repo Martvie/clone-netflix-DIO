@@ -5,7 +5,6 @@ html {
 body {
     background-color: var(--black);
     color: white;
-    min-width: 700px;
 }
 
 header .container {
@@ -84,4 +83,8 @@ header .container nav a:hover {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carousel {
+    margin-top: 8px;
 }
