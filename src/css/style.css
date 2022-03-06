@@ -28,3 +28,25 @@ header .container nav a {
 header .container nav a:hover {
     color: white;
 }
+
+/* Main Movie */
+
+.banner {
+    font-size: 1.6rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/office-banner.jpg');
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container .tittle-movie {
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.container .description-movie {
+    margin-bottom: 40px;
+}
