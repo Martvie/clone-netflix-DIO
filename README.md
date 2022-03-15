@@ -7,9 +7,9 @@ Clone da Netflix desenvolvida no Bootcamp HTML Web Developer disponível pela [D
 ## imagens do projeto
 
 <p align="center">
-<img src="src/images/screen/screenshot01.png">
-<img src="src/images/screen/screenshot02.png">
-<img src="src/images/screen/screenshot03.png">
+<img src="src/images/screen/screenshot01.jpeg">
+<img src="src/images/screen/screenshot02.jpeg">
+<img src="src/images/screen/screenshot03.jpeg">
 </p>
 
 ## Tecnologias utilizadas
